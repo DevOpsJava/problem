@@ -2,7 +2,9 @@
 
 Recreate problem, using an IaC tool and templates. 
 
-I will try pulumi an use it for both, that is to get a project up and running and deploy to cloud. I prefer to create a walking skelleton and focus on getting the feedback loop as quick as possible. And work from there.
+I tried out pulumi and used it for both, that is to get a project up and running and deploy to cloud. 
+
+I prefer to create a walking skeleton and focus on getting the feedback loop as quick as possible. And work from there.
 
 # Template
 A go project build with docker that deploys with pulumi to azure 
@@ -36,3 +38,4 @@ clean up
 pulumi destroy
 pulumi stack rm dev
 ```
+See password here [here](/nginx/.htpasswd)
